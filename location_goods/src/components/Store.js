@@ -9,7 +9,7 @@ function Store() {
 
   const func = (icon) => {
     setIcon((prevIcon) =>
-      prevIcon === 'view_list' ? (icon = 'view_module') : (icon = 'view_list')
+      prevIcon === 'view_list' ? 'view_module' : 'view_list'
     );
   };
 
