@@ -7,7 +7,7 @@ function Store() {
   const products = data;
   const [icon, setIcon] = useState('view_list');
 
-  const func = (icon) => {
+  const func = () => {
     setIcon((prevIcon) =>
       prevIcon === 'view_list' ? 'view_module' : 'view_list'
     );
