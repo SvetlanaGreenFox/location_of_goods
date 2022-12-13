@@ -19,6 +19,9 @@
 }
 
 /* html for modules */
+.wrapper{
+  padding: 10px;
+}
 
 .module-wrapper {
   display: flex;
